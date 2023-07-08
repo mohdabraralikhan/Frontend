@@ -1,0 +1,32 @@
+p {
+  color: rgb(75, 165, 42);
+  font-size: 32px;
+  background-color: aquamarine;
+}
+
+input {
+  background-color: yellow;
+}
+
+ul > li {
+  color: darkviolet;
+}
+
+ul > li > ol > li {
+  color: rgb(211, 0, 7);
+}
+
+ul > h2 {
+  text-decoration: underline;
+  color: blue;
+}
+
+.class1 {
+  text-decoration: overline;
+  text-decoration: underline;
+}
+
+p::first-line {
+  color: blue;
+  text-transform: uppercase;
+}

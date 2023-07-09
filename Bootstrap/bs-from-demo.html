@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initialscale=1">
+
+    <!--BootStrap CSS and JS files-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous">
+        </script>
+    <style>
+        ::placeholder {
+            color: white !important;
+        }
+    </style>
+</head>
+
+<body class="bg-dark text-light">
+
+    <div class="container ">
+
+        <!--Jumbotran -->
+        <div class="mt-4 p-4 bg-primary text-white rounded">
+            <h1 class="text-center">Welcome to ECommerce</h1>
+            <p class="text-end">Great products are great prices.</p>
+        </div>
+
+        <div class="row">
+            <div class="col-4"></div>
+            <div class="col-4"></div>
+            <div class="col-4">
+                <form action="#">
+                    <div class="form-group pt-2">
+                        <label>Enter Email</label>
+                        <input type="email" class="form-control bg-dark text-white" placeholder="mailid@xxx.yyy">
+                    </div>
+                    <br>
+                    <div class="form-group">
+                        <label>Password</label>
+                        <input type="password" class="form-control bg-dark text-white" placeholder="Password">
+                    </div>
+                    <br>
+                    <div class="text-end">
+                        <button type="submit" class="btn bg-primary text-white">Login Here</button>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+
+        <HR>
+        <HR>
+        <br><br>INPUT GROUP DEMO<br>
+        <div class="h2 badge bg-warning"> CREATE A FREE ACCOUNT HERE </div> <br>
+        <br>
+        <div class="input-group">
+            <input type="text" class="form-control bg-dark text-light" placeholder="login">
+            <span class="input-group-addon">@</span>
+            <input type="text" class="form-control bg-dark text-light" placeholder="xxx.com">
+        </div>
+        <br>
+        <div class="input-group">
+            <span class="input-group-addon">$</span>
+            <input type="text" class=" form-control bg-dark text-light">
+            <span class="input-group-addon">.00</span>
+        </div>
+
+
+        <br><br><br><br>
+        <!-- Div container end-->
+    </div>
+
+    <div class="form-group pt-5">
+        <label for="formcontrol">Choose a file to upload your ID Proof</label>
+        <input type="file" class="form-control-file bg-dark text-light" id="formcontrol">
+    </div>
+
+
+    <h6 class="pt-5">Age Group</h6>
+    <div class="custom-control custom-radio">
+        <input type="radio" class="custom-control-input" name="r1">
+        <label class="custom-control-label">20 to 50</label>
+    </div>
+    <div class="custom-control custom-radio">
+        <input type="radio" class="custom-control-input" name="r1">
+        <label class="custom-control-label">Above 50</label>
+
+        <h6 class="pt-5">Checkboxes</h6>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1" name="c1">
+            <label class="form-check-label" for="inlineCheckbox1">1</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2" name="c1">
+            <label class="form-check-label" for="inlineCheckbox2">2</label>
+        </div>
+
+        <h6 class="pt-5">Selection List</h6>
+        <select class="form-control form-control-lg bg-dark text-light">
+            <option>Monitor</option>
+            <option>Laptop</option>
+            <option>RAM</option>
+            <option>SSD</option>
+        </select>
+        <select class="form-control bg-dark text-light">
+            <option>Default select</option>
+        </select>
+        <select class="form-control form-control-sm bg-dark text-light">
+            <option>Small select</option>
+        </select>
+
+
+</body>
+
+</html>
